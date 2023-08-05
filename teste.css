@@ -155,7 +155,7 @@
 .cont-valk .f-p-spoiler:nth-child(1) .f-p-button, .cont-valk .f-p-spoiler:nth-child(1) .f-p-close {
   left: 20%;
   transform: translateX(-50%);
-  background-image: url(historico2.png);
+  background-image: url(https://i.imgur.com/EKrXmjK.png);
 }
 
 .cont-valk .f-p-spoiler:nth-child(2) {
@@ -165,7 +165,7 @@
 .cont-valk .f-p-spoiler:nth-child(2) .f-p-button, .cont-valk .f-p-spoiler:nth-child(2) .f-p-close {
   left: 40%;
   transform: translateX(-50%);
-  background-image: url(bau.png);
+  background-image: url(https://i.imgur.com/EKrXmjK.png);
 }
 
 .cont-valk .f-p-spoiler:nth-child(3) {
@@ -175,17 +175,17 @@
 .cont-valk .f-p-spoiler:nth-child(3) .f-p-button, .cont-valk .f-p-spoiler:nth-child(3) .f-p-close {
   right: 40%;
   transform: translateX(50%);
-  background-image: url(magia.png);
+  background-image: url(https://i.imgur.com/IcbUFTW.png);
 }
 
 .cont-valk .f-p-spoiler:nth-child(4) {
-  --title: "Observações" ;
+  --title: "Objetivos" ;
 }
 
 .cont-valk .f-p-spoiler:nth-child(4) .f-p-button, .cont-valk .f-p-spoiler:nth-child(4) .f-p-close {
   right: 20%;
   transform: translateX(50%);
-  background-image: url(objetivo.png);
+  background-image: url(https://i.imgur.com/IcbUFTW.png);
 }
 
 .cont-valk .f-p-spoiler .f-p-close {
