@@ -102,6 +102,7 @@
   font-weight: normal;
   display: none;
   padding-left: 80px;
+  padding-top: 0;
   cursor: initial;
 }
 
@@ -148,7 +149,7 @@
   opacity: 0;
   word-break: keep-all;
   font-weight: bold;
-  text-shadow: 2px 2px 2px white;
+  text-shadow: 1px 1px 1px white;
 }
 
 .cont-valk .f-p-spoiler .f-p-button:hover::before {
