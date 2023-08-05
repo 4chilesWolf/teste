@@ -67,7 +67,7 @@
   white-space: normal;
   position: relative;
   padding-left: 20px;
-  height: 250px;
+  padding-bottom: 280px;
 }
 
 .cont-valk .f-p-menu > ::before {
@@ -94,7 +94,7 @@
   padding-left: 70px;
   cursor: initial;
   position: absolute;
-  top: -8%;
+  top: -6%;
 }
 .cont-valk .f-p-spoiler .f-p-container span {
   text-align: left;
@@ -148,7 +148,7 @@
   --title: "Histórico" ;
 }
 .cont-valk .f-p-spoiler:nth-child(1) .f-p-button, .cont-valk .f-p-spoiler:nth-child(1) .f-p-close {
-  top: 5%;
+  top: 7%;
   transform: translateY(-50%);
   background-image: url(https://remenuf.github.io/FichaRpg/Template/ddw/Scroll.svg);
 }
