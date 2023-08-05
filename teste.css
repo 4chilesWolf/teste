@@ -161,7 +161,7 @@
 }
 
 .cont-valk .f-p-spoiler:nth-child(1) .f-p-button, .cont-valk .f-p-spoiler:nth-child(1) .f-p-close {
-  top: 50px;
+  top: 20%;
   transform: translateY(-50%);
   background-image: url(https://remenuf.github.io/FichaRpg/Template/ddw/Scroll.svg);
 }
@@ -171,7 +171,7 @@
 }
 
 .cont-valk .f-p-spoiler:nth-child(2) .f-p-button, .cont-valk .f-p-spoiler:nth-child(2) .f-p-close {
-  top: 120px;
+  top: 42%;
   transform: translateY(-50%);
   background-image: url(https://remenuf.github.io/FichaRpg/Template/ddw/Sword.svg);
 }
@@ -181,7 +181,7 @@
 }
 
 .cont-valk .f-p-spoiler:nth-child(3) .f-p-button, .cont-valk .f-p-spoiler:nth-child(3) .f-p-close {
-  top: 130px;
+  top: 45%;
   transform: translateY(50%);
   background-image: url(https://remenuf.github.io/FichaRpg/Template/ddw/Armor.svg);
 }
@@ -191,7 +191,7 @@
 }
 
 .cont-valk .f-p-spoiler:nth-child(4) .f-p-button, .cont-valk .f-p-spoiler:nth-child(4) .f-p-close {
-  top: 200px;
+  top: 70%;
   transform: translateY(50%);
   background-image: url(https://remenuf.github.io/FichaRpg/Template/ddw/Quill.svg);
 }
