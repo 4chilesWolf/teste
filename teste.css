@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url(https://fonts.googleapis.com/css2?family=Megrim&family=Raleway&family=Poppins&family=Didact+Gothic&display=swap);
 @import url("https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600;700&family=Nunito+Sans:opsz,wght@6..12,400;6..12,500&display=swap");
 
@@ -37,7 +36,7 @@
 .cont-valk-img .img-title {
   background-color: transparent;
   -webkit-backdrop-filter: blur 1px;
-  backdrop-filter: blur 1px;
+          backdrop-filter: blur 1px;
   font-size: 18px;
   font-family: "Megrim", cursive;
   color: white;
@@ -69,7 +68,6 @@
   position: relative;
   padding-left: 20px;
   height: 250px;
-  box-shadow: 2px 2px 2px #000;
 }
 
 .cont-valk .f-p-menu > ::before {
@@ -83,11 +81,9 @@
   height: 1px;
   background-color: #fff;
 }
-
 .cont-valk .f-p-spoiler {
   width: 100%;
 }
-
 .cont-valk .f-p-spoiler .f-p-container {
   color: #FFFFFF;
   white-space: pre-line;
@@ -100,7 +96,6 @@
   position: absolute;
   top: -8%;
 }
-
 .cont-valk .f-p-spoiler .f-p-container span {
   text-align: left;
   font-size: 24px;
@@ -110,7 +105,6 @@
   width: 100%;
   color: var(--cor);
 }
-
 .cont-valk .f-p-spoiler .f-p-button, .cont-valk .f-p-spoiler .f-p-close {
   width: 58px;
   height: 58px;
@@ -124,14 +118,12 @@
   opacity: 40%;
   filter: invert(100%) sepia(2%) saturate(420%) hue-rotate(43deg) brightness(112%) contrast(79%);
 }
-
 .cont-valk .f-p-spoiler .f-p-button:hover, .cont-valk .f-p-spoiler .f-p-close:hover {
   opacity: 100%;
 }
-
 .cont-valk .f-p-spoiler .f-p-button::before {
   content: var(--title);
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 14px;
   display: block;
   position: absolute;
@@ -148,61 +140,49 @@
   font-weight: bold;
   text-shadow: 1px 1px 1px white;
 }
-
 .cont-valk .f-p-spoiler .f-p-button:hover::before {
   opacity: 100%;
   top: -60%;
 }
-
 .cont-valk .f-p-spoiler:nth-child(1) {
   --title: "Histórico" ;
 }
-
 .cont-valk .f-p-spoiler:nth-child(1) .f-p-button, .cont-valk .f-p-spoiler:nth-child(1) .f-p-close {
   top: 5%;
   transform: translateY(-50%);
   background-image: url(https://remenuf.github.io/FichaRpg/Template/ddw/Scroll.svg);
 }
-
 .cont-valk .f-p-spoiler:nth-child(2) {
   --title: "Armas" ;
 }
-
 .cont-valk .f-p-spoiler:nth-child(2) .f-p-button, .cont-valk .f-p-spoiler:nth-child(2) .f-p-close {
   top: 30%;
   transform: translateY(-50%);
   background-image: url(https://remenuf.github.io/FichaRpg/Template/ddw/Sword.svg);
 }
-
 .cont-valk .f-p-spoiler:nth-child(3) {
   --title: "Armaduras" ;
 }
-
 .cont-valk .f-p-spoiler:nth-child(3) .f-p-button, .cont-valk .f-p-spoiler:nth-child(3) .f-p-close {
   top: 55%;
   transform: translateY(-50%);
   background-image: url(https://remenuf.github.io/FichaRpg/Template/ddw/Armor.svg);
 }
-
 .cont-valk .f-p-spoiler:nth-child(4) {
   --title: "Magias" ;
 }
-
 .cont-valk .f-p-spoiler:nth-child(4) .f-p-button, .cont-valk .f-p-spoiler:nth-child(4) .f-p-close {
   top: 80%;
   transform: translateY(-50%);
   background-image: url(https://remenuf.github.io/FichaRpg/Template/ddw/Quill.svg);
 }
-
 .cont-valk .f-p-spoiler .f-p-close {
   z-index: 40;
   display: none;
 }
-
 .cont-valk .f-p-spoiler input {
   display: none;
 }
-
 .cont-valk .f-p-spoiler input:checked ~ .f-p-container, .cont-valk .f-p-spoiler input:checked ~ .f-p-close {
   display: block;
   opacity: 100%;
